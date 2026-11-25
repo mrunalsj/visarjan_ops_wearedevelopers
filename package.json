@@ -1,0 +1,19 @@
+{
+  "name": "visarjanops",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.js",
+    "start": "node server/index.js",
+    "check": "node --check server/env.js && node --check server/index.js && node --check server/store.js && node --check server/status-source.js && node --check server/flags.js && node --check server/sarvam.js && node --check server/apify.js && node --check scripts/import-mcgm.mjs && node --check src.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@flagsmith/nodejs": "9.5.0",
+    "qrcode": "1.5.4"
+  }
+}

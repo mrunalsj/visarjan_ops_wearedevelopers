@@ -1,0 +1,14 @@
+{
+  "capacityPerSlot": 12,
+  "times": [
+    "4:30 – 5:00 PM",
+    "5:00 – 5:30 PM",
+    "5:30 – 6:00 PM",
+    "6:00 – 6:30 PM",
+    "6:30 – 7:00 PM"
+  ],
+  "defaultBookedByIndex": [0, 1, 2, 3, 3],
+  "bookedBySite": {
+    "central": [7, 7, 2, 3, 3]
+  }
+}
